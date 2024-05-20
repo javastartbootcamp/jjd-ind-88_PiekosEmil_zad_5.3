@@ -44,4 +44,9 @@ public class Product {
     public void setCategory(String category) {
         this.category = category;
     }
+
+    void printFullInfo() {
+        String info = name + ", " + description + ", " + category + ", Cena netto: " + price + "zł";
+        System.out.print(info);
+    }
 }
